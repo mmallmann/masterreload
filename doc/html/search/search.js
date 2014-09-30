@@ -10,7 +10,8 @@ var indexSectionsWithContent =
   0: "_acefgilmnoprstu",
   1: "afloprs",
   2: "_aceglmprsu",
-  3: "acfinpst"
+  3: "acfinpst",
+  4: "m"
 };
 
 var indexSectionNames =
@@ -18,7 +19,8 @@ var indexSectionNames =
   0: "all",
   1: "classes",
   2: "functions",
-  3: "variables"
+  3: "variables",
+  4: "pages"
 };
 
 function convertToId(search)

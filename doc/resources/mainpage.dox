@@ -1,0 +1,46 @@
+/**
+\mainpage Master Reload
+
+dev tool for speed up dev cycle in Maya
+
+link to the doc : http://giordi91.github.io/
+
+Hi everyone. this is a tool I wrote out of frustration for the repetitive actions needed in order to develop in Maya. 
+For example when you develop a C++ plug-in, you need to kill and re-open Maya when you recompile a new version, 
+load the plugin/plugins and setup the scene over and over. That's why I decided to write this 
+tool to speed up the process.
+
+Here you can see how you can open the ui (PYTHON):
+
+\code
+import reload_master
+from master_ui import sessionUi
+reload(reload_master)
+reload_master.reload_it()
+s = sessionUi.SessionUi()
+s.show()
+\endcode
+
+
+Here instead you can kick the default session (PYTHON):
+\code
+import reload_master
+from master_ui import sessionUi
+reload(reload_master)
+reload_master.reload_it()
+sessionUi.run_default()
+\endcode
+
+This two are actually the two script I use all the time, I attached them to two hotkeys:
+
+ctrl + alt + w = show window 
+ctrl + alt + q = kick default session
+
+Here you can find a live demo of the tool
+
+https://vimeo.com/107648350
+
+for comments, critiques, questions or anything feel free to contact me at:
+marco(dot)giordano(dot)work(at)gmail(dot)com
+
+*/

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>Master Reload: Main Page</title>
+<title>Master Reload: Master Reload</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -76,13 +76,33 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Master Reload Documentation</div>  </div>
+<div class="title">Master Reload </div>  </div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+<div class="textblock"><p>dev tool for speed up dev cycle in Maya</p>
+<p>link to the doc : <a href="http://giordi91.github.io/">http://giordi91.github.io/</a></p>
+<p>Hi everyone. this is a tool I wrote out of frustration for the repetitive actions needed in order to develop in Maya. For example when you develop a C++ plug-in, you need to kill and re-open Maya when you recompile a new version, load the plugin/plugins and setup the scene over and over. That's why I decided to write this tool to speed up the process.</p>
+<p>Here you can see how you can open the ui (PYTHON):</p>
+<div class="fragment"><div class="line"><span class="keyword">import</span> reload_master</div>
+<div class="line">from master_ui <span class="keyword">import</span> sessionUi</div>
+<div class="line">reload(reload_master)</div>
+<div class="line">reload_master.reload_it()</div>
+<div class="line">s = sessionUi.SessionUi()</div>
+<div class="line">s.show()</div>
+</div><!-- fragment --><p>Here instead you can kick the default session (PYTHON): </p><div class="fragment"><div class="line"><span class="keyword">import</span> reload_master</div>
+<div class="line">from master_ui <span class="keyword">import</span> sessionUi</div>
+<div class="line">reload(reload_master)</div>
+<div class="line">reload_master.reload_it()</div>
+<div class="line">sessionUi.run_default()</div>
+</div><!-- fragment --><p>This two are actually the two script I use all the time, I attached them to two hotkeys:</p>
+<p>ctrl + alt + w = show window ctrl + alt + q = kick default session</p>
+<p>Here you can find a live demo of the tool</p>
+<p><a href="https://vimeo.com/107648350">https://vimeo.com/107648350</a></p>
+<p>for comments, critiques, questions or anything feel free to contact me at: marco(dot)giordano(dot)work(at)gmail(dot)com </p>
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 30 2014 22:52:17 for Master Reload by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 1 2014 00:57:59 for Master Reload by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>
