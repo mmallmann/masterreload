@@ -1,0 +1,14 @@
+[
+  {
+    "action_type": "LoadPluginAction", 
+    "path": "/user_data/WORK_IN_PROGRESS/dojo-basicapi/basicNode/basicNode/basicNode.so"
+  }, 
+  {
+    "action_type": "OpenFileAction", 
+    "path": "/user_data/WORK_IN_PROGRESS/dojo-basicapi/testFile/basicNode_01.ma"
+  }, 
+  {
+    "action_type": "RunSystemAction", 
+    "path": "M2014"
+  }
+]

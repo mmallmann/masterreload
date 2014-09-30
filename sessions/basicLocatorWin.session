@@ -1,0 +1,10 @@
+[
+  {
+    "action_type": "LoadPluginAction", 
+    "path": "D:/PROGETTI_IN_CORSO/C/dojo/basicApi/basicLocator/basicLocator/Debug/basicLocator.mll"
+  }, 
+  {
+    "action_type": "OpenFileAction", 
+    "path": "D:/PROGETTI_IN_CORSO/C/dojo/basicApi/testFile/basicLocator01.ma"
+  }
+]

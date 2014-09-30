@@ -1,0 +1,10 @@
+[
+  {
+    "action_type": "LoadPluginAction", 
+    "path": "/user_data/WORK_IN_PROGRESS/dojo-basicapi/aimNode/aimNode/aimNode.so"
+  }, 
+  {
+    "action_type": "OpenFileAction", 
+    "path": "/user_data/WORK_IN_PROGRESS/dojo-basicapi/testFile/aimConstraint01.ma"
+  }
+]

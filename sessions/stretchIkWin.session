@@ -1,0 +1,10 @@
+[
+  {
+    "action_type": "LoadPluginAction", 
+    "path": "D:/PROGETTI_IN_CORSO/C/dojo/basicApi/stretchIk/stretchIk/Debug/stretchIk.mll"
+  }, 
+  {
+    "action_type": "OpenFileAction", 
+    "path": "D:/PROGETTI_IN_CORSO/C/dojo/basicApi/testFile/stretchIk_01.ma"
+  }
+]

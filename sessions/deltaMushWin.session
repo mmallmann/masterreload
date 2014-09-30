@@ -1,0 +1,18 @@
+[
+  {
+    "action_type": "LoadPluginAction", 
+    "path": "D:/PROGETTI_IN_CORSO/C/maya-plugins/MG_deltaMush/MG_deltaMush/Debug/MG_deltaMush.mll"
+  }, 
+  {
+    "action_type": "LoadPluginAction", 
+    "path": "D:/PROGETTI_IN_CORSO/C/dojo/basicApi/stresssMap/stresssMap/Debug/stresssMap.mll"
+  }, 
+  {
+    "action_type": "OpenFileAction", 
+    "path": "C:/Users/Marco/Desktop/deltaMush.ma"
+  }, 
+  {
+    "action_type": "OpenMayaAction", 
+    "path": ""
+  }
+]
