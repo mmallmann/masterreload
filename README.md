@@ -3,6 +3,8 @@ masterreload
 
 dev tool for speed up dev cycle in Maya
 
+link to the doc : http://giordi91.github.io/
+
 Hi everyone. this is a tool I wrote out of frustration for the repetitive actions needed
 in order to develop in Maya.
 For example when you develop a C++ plug-in, you need to kill and re-open Maya 
